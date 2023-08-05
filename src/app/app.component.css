@@ -35,7 +35,7 @@ a{
   background-repeat: no-repeat;
   background-position: center;
   height: 550px;
-  background-image: url("../assets/img/giphy.gif");
+  background-image: url("../assets/giphy.gif");
 }
 
 .titleGif {
@@ -95,5 +95,5 @@ footer {
   width: 25%;
   font-size: x-large;
   font-family:cursive;
-  list-style-image: url("../assets/img/news.png");
+  list-style-image: url("../assets/news.png");
 }
