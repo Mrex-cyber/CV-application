@@ -1,0 +1,28 @@
+div {
+  height: 500px;
+  display: inline-block;
+}
+h2{
+  margin-top: 100px;
+  display: block;
+}
+#achievements {
+  font-size: 24px;
+  font-family: cursive;
+  width: 100%;
+  display:block;
+}
+#achievements details {
+  display: inline-block;
+  width: 45%;
+  margin-left: 5%;
+}
+
+#achievements details[open] summary {
+  color: yellow;
+  background-color: purple;
+}
+#achievements details p {
+  font-size: 20px;
+}
+

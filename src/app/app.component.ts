@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'CV-application';
+  title = 'Welcome to my second Home';
+
+  public news: string[] = [
+    "New project",
+    "Updated README.md",
+    "Finished start EnjotingCooking project"
+  ];
+
+
 }

@@ -1,0 +1,9 @@
+<div *ngFor="let project of projects">
+  <h2>{{project.title}}</h2>
+  <p>Spent time: {{project.spentTime}}</p>
+  <ul>
+    <li *ngFor="let tech of project.usedKnowledge">{{tech}}</li>
+  </ul>
+  <p>Description: {{project.description}}</p>
+  <a href="project.link">Click for going to GitHub</a>
+</div>
