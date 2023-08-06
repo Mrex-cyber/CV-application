@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'Welcome to my second Home';
 
   public news: string[] = [
-    "New project",
-    "Updated README.md",
-    "Finished start EnjotingCooking project"
+    "Valentine was made CV-application",
+    "T&PTeam is raising so fast",
+    "+245 vacancies for a month!"
   ];
 
 
