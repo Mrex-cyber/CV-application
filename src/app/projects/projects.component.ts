@@ -1,5 +1,5 @@
-import { Component, NgZone, OnInit } from '@angular/core';
-import { IProject } from '../IProject';
+import { Component, OnInit } from '@angular/core';
+import { IProject } from '../models/IProject';
 
 @Component({
   selector: 'app-projects',
@@ -8,6 +8,13 @@ import { IProject } from '../IProject';
 })
 export class ProjectsComponent implements OnInit {
   projects: IProject[] = [
+    {
+      title: "Tester knowledge",
+      spentTime: "9 months",
+      usedKnowledge: ["WebAPI", "MS SQL Server", "LINQ", "API requests", "Validation", "SQL querries and commands", "Angular"],
+      description: 'This is Frontend side of the "Tester" application: https://github.com/Mrex-cyber/Enjoying-Cooking',
+      link: "https://github.com/MREX-X/english-tester-spa",
+    },
     {
       title: "Enjoying Cooking",
       spentTime: "3 months",
