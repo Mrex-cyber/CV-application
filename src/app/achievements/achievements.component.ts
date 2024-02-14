@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IAchievement } from '../IAchievement';
+import { IAchievement } from '../models/IAchievement';
 
 @Component({
   selector: 'app-achievements',

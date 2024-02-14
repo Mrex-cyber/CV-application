@@ -7,6 +7,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
+import { MainNavigationComponent } from './navigation/components/main-navigation/main-navigation.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './main/main.component';
       ProjectsComponent,
       AchievementsComponent,
       AboutComponent,
-      MainComponent
+      MainComponent,
+      MainNavigationComponent
    ],
   imports: [
     BrowserModule,

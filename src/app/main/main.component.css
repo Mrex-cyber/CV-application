@@ -10,12 +10,29 @@ div {
   height: auto;
 }
 
-#myInfo details[open] summary {
-  color: yellow;
-  background-color: purple;
+.work-info summary{
+  margin-bottom: 15px;
 }
 
-#myInfo ul{
+#myInfo > details > details {
+  margin-left: 24px;
+  border: solid 2px orange;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#myInfo details[open] div {
+  height: fit-content;
+  display: inline;
+  width: 100%;
+  color: yellow;
+  background-color: purple;
+  border-radius: 15px;
+  padding: 10px;
+  border: solid 2px black;
+}
+
+#myInfo ul {
   font-size: 18px;
   font-family: sans-serif;
 }
